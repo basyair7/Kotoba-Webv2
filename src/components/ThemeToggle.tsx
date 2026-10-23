@@ -25,12 +25,12 @@ export default function ThemeToggle({ theme, toggleTheme }: ThemeToggleProps) {
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
-              stroke-width="2"
+              strokeWidth="2"
             >
               <circle cx="12" cy="12" r="5" />
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"
               />
             </svg>
@@ -46,11 +46,11 @@ export default function ThemeToggle({ theme, toggleTheme }: ThemeToggleProps) {
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
-              stroke-width="2"
+              strokeWidth="2"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 d="M21 12.79A9 9 0 1111.21 3a7 7 0 009.79 9.79z"
               />
             </svg>

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Kotoba Web",
+  title: "kotoba-web v2.0.0",
   description: "Belajar kosakata bahasa Jepang dengan daftar kata dan kuis.",
 };
 
