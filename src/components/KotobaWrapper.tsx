@@ -4,6 +4,7 @@ import KotobaList from "./KotobaList";
 import ThemeToggle from "./ThemeToggle";
 import { useTheme } from "../hooks/useTheme";
 import { useLocalStorageState } from "../hooks/useLocalStorageState";
+import { Analytics } from "@vercel/analytics/next";
 
 type Language = "id" | "en" | "jp";
 const LANGUAGES: readonly Language[] = ["id", "en", "jp"];
@@ -20,6 +21,7 @@ export default function KotobaWrapper() {
 
   return (
     <main className={`p-4 transition-colors duration-300 ${theme === "dark" ? "bg-gray-900 text-white" : "bg-white text-black"}`}>
+      <Analytics/>
       <h1 className="text-3xl font-bold mb-4">{labels[lang].title}</h1>
       <div className="flex flex-wrap gap-4 mb-6 items-center">
         <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
